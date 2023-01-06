@@ -11,7 +11,7 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "tf-vpc-prod-hansol01000"
+    Name = "tf-vpc-prod-hansol01hansol01"
   }
 }
 
