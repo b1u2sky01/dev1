@@ -18,6 +18,9 @@
 #   value = { for k, v in tls_private_key.service : k => nonsensitive(v.private_key_pem) }
 # }
 
+# output "key" {
+#   value = { for k, v in tls_private_key.service : k => nonsensitive(v.private_key_pem) }
+# }
 
 output "codedeploy_arn" {
   description = "codedeploy role"
